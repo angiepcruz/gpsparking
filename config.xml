@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.gmail@angiecruzgudi"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>GPS parking</name>
+
+    <description>
+       Aplicación para encontrar la salida en el los centros comerciales Santa Fe y Gran Estación  
+    </description>
+
+    <author href="https://build.phonegap.com" email="angiecruzgudi@gmail.com">
+        Angie Cruz, Oscar Bermudez, Lorena Correal 
+    </author>
+    <icon src="icon.png" />
+
+</widget>

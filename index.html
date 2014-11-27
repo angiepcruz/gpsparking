@@ -1,0 +1,874 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	
+    <title>primera</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/themes/mytheme.css" />
+  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<meta charset="utf-8">
+</head>
+
+<body>
+          
+	<div data-role="page" id="seleccioncc">
+          <div data-role="header">
+              <h1>Seleccione el CC</h1>
+        </div>
+     <center>
+     <label for="select-choice-1" class="select">Seleccione el centro comercial en el que se encuentra</label>
+     <a href="#registrosf" class="ui-btn ui-btn-inline">
+     	<img src="santafe.jpg">
+     </a>
+     <a href="#registrocm" class="ui-btn ui-btn-inline">
+      <img src="centromayor.jpg">
+      </a>
+</center>
+     <div data-role="footer" data-position="fixed">
+    	<h1>Seleccione el CC</h1>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div data-role="page" id="registrosf">
+    <div data-role="header">
+    	<h1>Ruta de salida</h1>
+    </div>
+    <div class="ui-content">
+    <center>
+    <label for="search-control-group">Ingrese numero de placa</label>
+    <div data-role="controlgroup" data-type="horizontal">
+        <input type="text" id="search-control-group" >
+    </div>
+    </center>
+    <div class="ui-grid-a">
+                	<center> <label for="select-choice-1" class="select">Seleccione plaza por la que ingreso al centro comercial</label></center>
+            <select name="select-choice-1" id="select-choice-1">
+                <option value="rush">Plaza Colombia</option>
+                <option value="express">Plaza Venezuela</option>
+                <option value="overnight">Plaza Francia</option>
+                <option value="overnight">Plaza Italia</option>
+                <option value="overnight">Plaza Peru</option>
+                <option value="overnight">Plaza Ecuador</option>
+            </select>
+        </div>
+        </div> 
+   <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#seleccioncc" data-icon="home">Menu Principal</a></li>
+                <li><a href="#sf" data-icon="check">Ingresar</a></li>
+            </ul>
+        </div><!-- /navbar -->
+</div><!-- /footer -->
+</div>
+
+
+
+
+
+
+
+
+
+<div data-role="page" id="registrocm">
+    <div data-role="header">
+    	<h1>Ruta de salida</h1>
+    </div>
+    <div class="ui-content">
+    <center>
+    <label for="search-control-group">Ingrese numero de placa</label>
+    <div data-role="controlgroup" data-type="horizontal">
+        <input type="text" id="search-control-group" >
+    </div>
+    </center>
+    <div class="ui-grid-a">
+                	<center> <label for="select-choice-1" class="select">Seleccione plaza por la que ingreso al centro comercial</label></center>
+            <select name="select-choice-1" id="select-choice-1">
+                <option value="rush">Plaza Colombia</option>
+                <option value="express">Plaza Venezuela</option>
+                <option value="overnight">Plaza Francia</option>
+                <option value="overnight">Plaza Italia</option>
+                <option value="overnight">Plaza Peru</option>
+                <option value="overnight">Plaza Ecuador</option>
+            </select>
+        </div>
+   </div>
+   <div data-role="footer" data-position="fixed">
+  <div data-role="navbar">
+            <ul>
+                <li><a href="#seleccioncc" data-icon="home">Menu Principal</a></li>
+                <li><a href="#cm" data-icon="check">Ingresar</a></li>
+            </ul>
+        </div><!-- /navbar -->
+</div><!-- /footer -->
+</div>
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+<div data-role="page" id="cm">
+    <div data-role="header">
+    	<h1>Ruta de salida</h1>
+    </div>
+    <div class="ui-content">
+    
+    <center>
+    <label for="search-control-group">Ingrese numero de placa</label>
+    <div data-role="controlgroup" data-type="horizontal">
+        <input type="text" id="search-control-group" > 
+    </div>
+    </center>
+    <div class="ui-grid-a">
+        <div class="ui-block-a">
+        	<center><label for="select-choice-1" class="select">Seleccione plaza por la que ingreso al centro comercial</label></center>
+            <select name="select-choice-1" id="select-choice-1">
+                <option value="rush">Plaza Colombia</option>
+                <option value="express">Plaza Venezuela</option>
+                <option value="overnight">Plaza Francia</option>
+                <option value="overnight">Plaza Italia</option>
+                <option value="overnight">Plaza Peru</option>
+                <option value="overnight">Plaza Ecuador</option>
+            </select>
+        </div>
+       <center><label for="select-choice-1" class="select">Ingrese el nombre del local donde se encuentra ubicado</label></center>
+        <div class="ui-block-b">
+        	 <ul data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Buscar local" data-inset="true">
+    <li><a href="#"></a></li>
+<li><a href="#">100% futbol</a></li>
+<li><a href="#">Abril</a></li>
+<li><a href="#">Adidas</a></li>
+<li><a href="#">AeroCambios</a></li>
+<li><a href="#">Alpie</a></li>
+<li><a href="#">Amazing</a></li>
+<li><a href="#">Ambiente de hogar</a></li>
+<li><a href="#">Ambrosia Express</a></li>
+<li><a href="#">Americana de colchones</a></li>
+<li><a href="#">Americanino</a></li>
+<li><a href="#">Andrés expres</a></li>
+<li><a href="#">Angeljeans </a></li>
+<li><a href="#">Answer creative</a></li>
+<li><a href="#">Aquiles</a></li>
+<li><a href="#">Arena</a></li>
+<li><a href="#">Ariztor</a></li>
+<li><a href="#">Armi</a></li>
+<li><a href="#">Arrocería</a></li>
+<li><a href="#">Arturo calle</a></li>
+<li><a href="#">Asia Express</a></li>
+<li><a href="#">Asiel</a></li>
+<li><a href="#">Athletic</a></li>
+<li><a href="#">Athletic store</a></li>
+<li><a href="#">Atlanta deportes</a></li>
+<li><a href="#">AU-PAIR Colombia</a></li>
+<li><a href="#">Bacano fish</a></li>
+<li><a href="#">Banana </a></li>
+<li><a href="#">Banco Av villas</a></li>
+<li><a href="#">Banco caja social</a></li>
+<li><a href="#">Banco de Bogotá </a></li>
+<li><a href="#">Banco de occidente</a></li>
+<li><a href="#">Banco popular</a></li>
+<li><a href="#">Bancolombia</a></li>
+<li><a href="#">BBVA</a></li>
+<li><a href="#">Bella piel</a></li>
+<li><a href="#">Beso de coco</a></li>
+<li><a href="#">Bkul</a></li>
+<li><a href="#">Blaus</a></li>
+<li><a href="#">Blu productos</a></li>
+<li><a href="#">Blue blood</a></li>
+<li><a href="#">Bogotá beer company</a></li>
+<li><a href="#">Bolivariano</a></li>
+<li><a href="#">Bosi</a></li>
+<li><a href="#">Brahma concept</a></li>
+<li><a href="#">Brangus</a></li>
+<li><a href="#">Brissa</a></li>
+<li><a href="#">Buenisimo</a></li>
+<li><a href="#">Burger King</a></li>
+<li><a href="#">By la gorda  Fabiola</a></li>
+<li><a href="#">C.P company</a></li>
+<li><a href="#">Café tostion</a></li>
+<li><a href="#">Cajero automatico</a></li>
+<li><a href="#">Calzado de gamo</a></li>
+<li><a href="#">Calzado gonzo</a></li>
+<li><a href="#">Calzado kalifa</a></li>
+<li><a href="#">Calzado nueva moda</a></li>
+<li><a href="#">Yullyan</a></li>
+<li><a href="#">Calzatodo</a></li>
+<li><a href="#">Camisería europea</a></li>
+<li><a href="#">Camisería moderna</a></li>
+<li><a href="#">Caprino</a></li>
+<li><a href="#">Carbonera</a></li>
+<li><a href="#">Carmúltiple</a></li>
+<li><a href="#">Carolina cruz</a></li>
+<li><a href="#">Casa del kumis</a></li>
+<li><a href="#">Caterpillar</a></li>
+<li><a href="#">Chevignon</a></li>
+<li><a href="#">Chili beans</a></li>
+<li><a href="#">Cine Colombia</a></li>
+<li><a href="#">Citibank</a></li>
+<li><a href="#">City park</a></li>
+<li><a href="#">Claro</a></li>
+<li><a href="#">Claro C.P.S Comovil</a></li>
+<li><a href="#">Claro grupo cano</a></li>
+<li><a href="#">Coffee & dreams</a></li>
+<li><a href="#">Dormilife</a></li>
+<li><a href="#">Dormiluna</a></li>
+<li><a href="#">El dorado</a></li>
+<li><a href="#">Colchones Paraiso</a></li>
+<li><a href="#">Colchones Ramguiflex</a></li>
+<li><a href="#">Color blue</a></li>
+<li><a href="#">Color kids</a></li>
+<li><a href="#">Colpatria</a></li>
+<li><a href="#">Coltefinanciera</a></li>
+<li><a href="#">Comodisimos</a></li>
+<li><a href="#">Ellison</a></li>
+<li><a href="#">Crazy kids</a></li>
+<li><a href="#">Crepes & waffles</a></li>
+<li><a href="#">Cromo jeans</a></li>
+<li><a href="#">D´fruta</a></li>
+<li><a href="#">Davivienda</a></li>
+<li><a href="#">Dcalidad</a></li>
+<li><a href="#">De pura fruta</a></li>
+<li><a href="#">Decameron</a></li>
+<li><a href="#">Deepot  plays</a></li>
+<li><a href="#">Deepot</a></li>
+<li><a href="#">Del rodeo</a></li>
+<li><a href="#">Delam toys</a></li>
+<li><a href="#">Delicias del campo</a></li>
+<li><a href="#">Denti salud</a></li>
+<li><a href="#">Deport int</a></li>
+<li><a href="#">Derek</a></li>
+<li><a href="#">Diane & geordi</a></li>
+<li><a href="#">Dick´s sport</a></li>
+<li><a href="#">Direct tv</a></li>
+<li><a href="#">Do it!</a></li>
+<li><a href="#">Doble a fashion</a></li>
+<li><a href="#">Dogger</a></li>
+<li><a href="#">Doménico</a></li>
+<li><a href="#">Don jediondo</a></li>
+<li><a href="#">Droguería Colsubsidio</a></li>
+<li><a href="#">Du Pareil au même</a></li>
+<li><a href="#">Dulces Frutos</a></li>
+<li><a href="#">Dunkin' Donuts</a></li>
+<li><a href="#">Dunkin' Donuts y Basking Robbins</a></li>
+<li><a href="#">Dysmor</a></li>
+<li><a href="#">D´ Fruta</a></li>
+<li><a href="#">Easy</a></li>
+<li><a href="#">El Carnal</a></li>
+<li><a href="#">El Corral</a></li>
+<li><a href="#">El Dog</a></li>
+<li><a href="#">El Obleazzo</a></li>
+<li><a href="#">Ela</a></li>
+<li><a href="#">Elegant House</a></li>
+<li><a href="#">En Forma "Natural"</a></li>
+<li><a href="#">Enock</a></li>
+<li><a href="#">Epk</a></li>
+<li><a href="#">Esencial</a></li>
+<li><a href="#">Evacol</a></li>
+<li><a href="#">Exclusive</a></li>
+<li><a href="#">ÉXITO</a></li>
+<li><a href="#">Facol</a></li>
+<li><a href="#">Falabella</a></li>
+<li><a href="#">Famitienda</a></li>
+<li><a href="#">Farmatodo</a></li>
+<li><a href="#">FDS</a></li>
+<li><a href="#">Femeni</a></li>
+<li><a href="#">Fiesta Gran Gasino</a></li>
+<li><a href="#">Fiorenzi</a></li>
+<li><a href="#">Fiotti</a></li>
+<li><a href="#">Flamingo</a></li>
+<li><a href="#">Flow</a></li>
+<li><a href="#">Foto japon</a></li>
+<li><a href="#">Four point</a></li>
+<li><a href="#">Four Point</a></li>
+<li><a href="#">Frisby</a></li>
+<li><a href="#">Fuccia & rivera</a></li>
+<li><a href="#">Fxa</a></li>
+<li><a href="#">Garvi</a></li>
+<li><a href="#">Gas, Groggy</a></li>
+<li><a href="#">Gef</a></li>
+<li><a href="#">Gino pascini</a></li>
+<li><a href="#">Girls & Boys</a></li>
+<li><a href="#">Giros y Finanzas</a></li>
+<li><a href="#">Gleam accesorios</a></li>
+<li><a href="#">Glimmer</a></li>
+<li><a href="#">Go-yurt</a></li>
+<li><a href="#">Gong</a></li>
+<li><a href="#">Hamburguesas Country</a></li>
+<li><a href="#">Happy Sleep</a></li>
+<li><a href="#">Hawi store</a></li>
+<li><a href="#">Mari dini</a></li>
+<li><a href="#">Herlo collection</a></li>
+<li><a href="#">HP</a></li>
+<li><a href="#">Imperio del tiempo</a></li>
+<li><a href="#">Imusa home & cook</a></li>
+<li><a href="#">Infantiles nico</a></li>
+<li><a href="#">Insignia</a></li>
+<li><a href="#">Itiel shoes</a></li>
+<li><a href="#">Javi</a></li>
+<li><a href="#">Jenos pizza</a></li>
+<li><a href="#">Jjaconda</a></li>
+<li><a href="#">Joshua</a></li>
+<li><a href="#">Juan Valdez Café</a></li>
+<li><a href="#">Juvi Maternidad</a></li>
+<li><a href="#">Ke´tos</a></li>
+<li><a href="#">Kelinda</a></li>
+<li><a href="#">Kenzo</a></li>
+<li><a href="#">Kids Factory</a></li>
+<li><a href="#">Kobalto</a></li>
+<li><a href="#">Kokoriko</a></li>
+<li><a href="#">Ktronix</a></li>
+<li><a href="#">L´occitane</a></li>
+<li><a href="#">La Barca</a></li>
+<li><a href="#">La Callana</a></li>
+<li><a href="#">La Hora</a></li>
+<li><a href="#">La Olla Criolla</a></li>
+<li><a href="#">La parrilla</a></li>
+<li><a href="#">LA POLAR</a></li>
+<li><a href="#">La Ponderosa</a></li>
+<li><a href="#">LeCoq Sportif</a></li>
+<li><a href="#">Leonisa</a></li>
+<li><a href="#">Levi´s</a></li>
+<li><a href="#">Lili Pink</a></li>
+<li><a href="#">Linuras nu</a></li>
+<li><a href="#">Lips accesorios</a></li>
+<li><a href="#">Live Diseño interior</a></li>
+<li><a href="#">Los Pollitos</a></li>
+<li><a href="#">Luber LBR</a></li>
+<li><a href="#">Luis Felipe Confeciones</a></li>
+<li><a href="#">Macoly</a></li>
+<li><a href="#">Majail Anachous</a></li>
+<li><a href="#">Mc Donald´s</a></li>
+<li><a href="#">Mc Postres/a></li>
+<li><a href="#">Megavestidos</a></li>
+<li><a href="#">Mic</a></li>
+<li><a href="#">Migues</a></li>
+<li><a href="#">Millonarios FC</a></li>
+<li><a href="#">Mimo´s</a></li>
+<li><a href="#">Mis carnes</a></li>
+<li><a href="#">MISSLULÚ</a></li>
+<li><a href="#">Mister Lee</a></li>
+<li><a href="#">Monster/a></li>
+<li><a href="#">Monstruos</a></li>
+<li><a href="#">Movil Company</a></li>
+<li><a href="#">Movistar</a></li>
+<li><a href="#">MultiOpticas</a></li>
+<li><a href="#">Mundo Belleza</a></li>
+<li><a href="#">Mundo Curioso</a></li>
+<li><a href="#">Mundo toys</a></li>
+<li><a href="#">MUSSI</a></li>
+<li><a href="#">My shop</a></li>
+<li><a href="#">New Play</a></li>
+<li><a href="#">Nicolukas</a></li>
+<li><a href="#">Nohorita</a></li>
+<li><a href="#">Nueva Felicidad</a></li>
+<li><a href="#">O Boticário</a></li>
+<li><a href="#">Off Corss</a></li>
+<li><a href="#">Oma</a></li>
+<li><a href="#">Optica Italiana</a></li>
+<li><a href="#">Optica ewton</a></li>
+<li><a href="#">Optica Vision Class</a></li>
+<li><a href="#">Opticas ABC Store</a></li>
+<li><a href="#">Ópticas GMO</a></li>
+<li><a href="#">Opticentro Internacional</a></li>
+<li><a href="#">Origenes</a></li>
+<li><a href="#">Paga Todo</a></li>
+<li><a href="#">Panamericana</a></li>
+<li><a href="#">Papa John´s</a></li>
+<li><a href="#">Parilla & Picaditas</a></li>
+<li><a href="#">Pat Primo</a></li>
+<li><a href="#">Patty Fruterias</a></li>
+<li><a href="#">Patty Sport</a></li>
+<li><a href="#">Payless</a></li>
+<li><a href="#">Peluqueria Fashion Kids</a></li>
+<li><a href="#">People Kids</a></li>
+<li><a href="#">People play´s</a></li>
+<li><a href="#">Pepe Ganga</a></li>
+<li><a href="#">Perfumes Factory</a></li>
+<li><a href="#">Peveecka</a></li>
+<li><a href="#">Piccolo Shoes</a></li>
+<li><a href="#">Picos</a></li>
+<li><a href="#">Pierre D´Agostiny</a></li>
+<li><a href="#">Planeta Sport</a></li>
+<li><a href="#">Popsy</a></li>
+<li><a href="#">PPC</a></li>
+<li><a href="#">Praga</a></li>
+<li><a href="#">Presto</a></li>
+<li><a href="#">Pronto</a></li>
+<li><a href="#">Puma</a></li>
+<li><a href="#">Rena-ser Peluquería</a></li>
+<li><a href="#">Replay´s</a></li>
+<li><a href="#">Respotería Deli</a></li>
+<li><a href="#">Derek</a></li>
+<li><a href="#">RIPLEY</a></li>
+<li><a href="#">Romero Peluquería</a></li>
+<li><a href="#">Roott+Co</a></li>
+<li><a href="#">Samsung</a></li>
+<li><a href="#">SANDWICH GOURMET</a></li>
+<li><a href="#">Sandwich Qbano</a></li>
+<li><a href="#">Santorini</a></li>
+<li><a href="#">Seaport</a></li>
+<li><a href="#">Select</a></li>
+<li><a href="#">Semáforo en rojo</a></li>
+<li><a href="#">Senthía</a></li>
+<li><a href="#">Servientrega</a></li>
+<li><a href="#">Seven Seven</a></li>
+<li><a href="#">Shock Wear</a></li>
+<li><a href="#">Shoker</a></li>
+<li><a href="#">Easy</a></li>
+<li><a href="#">SieSua Spa</a></li>
+<li><a href="#">Sipote Burrito</a></li>
+<li><a href="#">Skechers</a></li>
+<li><a href="#">Smith Shoes</a></li>
+<li><a href="#">Sopas de Mamá y Postres de la Abuela</a></li>
+<li><a href="#">Speedo</a></li>
+<li><a href="#">Sport Life</a></li>
+<li><a href="#">Sport Shoes</a></li>
+<li><a href="#">Sport Station</a></li>
+<li><a href="#">Spring Step</a></li>
+<li><a href="#">Star Bien</a></li>
+<li><a href="#">Star Game Z</a></li>
+<li><a href="#">Stile Sport Shop</a></li>
+<li><a href="#">Studio F</a></li>
+<li><a href="#">Subway</a></li>
+<li><a href="#">Suvenires</a></li>
+<li><a href="#">Systemas Net</a></li>
+<li><a href="#">Tall Point</a></li>
+<li><a href="#">Tania</a></li>
+<li><a href="#">Teknopolis</a></li>
+<li><a href="#">Teltex</a></li>
+<li><a href="#">Temaki</a></li>
+<li><a href="#">Tennis</a></li>
+<li><a href="#">Tick Tock</a></li>
+<li><a href="#">Tiendas Baxter</a></li>
+<li><a href="#">Tiendas Mega Tennis</a></li>
+<li><a href="#">Tiendas Teva</a></li>
+<li><a href="#">Tigo</a></li>
+<li><a href="#">Tomaticos</a></li>
+<li><a href="#">Totto</a></li>
+<li><a href="#">Trianon</a></li>
+<li><a href="#">Tropical Cream</a></li>
+<li><a href="#">tukasa</a></li>
+<li><a href="#">Tv Novedades Tv</a></li>
+<li><a href="#">Umbro</a></li>
+<li><a href="#">Universal Store</a></li>
+<li><a href="#">Vanessa</a></li>
+<li><a href="#">Vélez</a></li>
+<li><a href="#">Viajes Colombia</a></li>
+<li><a href="#">Video Juegos XBOX 360</a></li>
+<li><a href="#">Vito´s</a></li>
+<li><a href="#">Wall street English</a></li>
+<li><a href="#">Wil Bot´s</a></li>
+<li><a href="#">WiseUp Inglés Inteligente</a></li>
+<li><a href="#">Woody´s</a></li>
+<li><a href="#">World Technology</a></li>
+<li><a href="#">Wrenched</a></li>
+<li><a href="#">Xaxaritas</a></li>
+<li><a href="#">Xian</a></li>
+<li><a href="#">Xuss</a></li>
+<li><a href="#">Yogen Fruz</a></li>
+<li><a href="#">Zona de Descanso</a></li>
+
+</ul>
+ </div>
+	</div><!-- /grid-a -->
+   </div>
+   <div data-role="footer" data-position="fixed">
+    	<div data-role="navbar">
+            <ul>
+                <li><a href="#seleccioncc" data-icon="home">Menu Principal</a></li>
+                <li><a href="#registrocm" data-icon="arrow-l">atras</a></li>
+                <li><a href="#mapa2" data-icon="location">Generar ruta de salida</a></li>
+            </ul>
+   </div><!-- /navbar -->
+</div><!-- /footer -->
+</div>
+
+
+
+
+
+
+
+
+
+    <div data-role="page" id="sf">
+    <div data-role="header">
+    	<h1>Ruta de salida</h1>
+    </div>
+    <div class="ui-content">
+    
+    <center>
+    <label for="search-control-group">Ingrese numero de placa</label>
+    <div data-role="controlgroup" data-type="horizontal">
+        <input type="text" id="search-control-group" > 
+    </div>
+    </center>
+    <div class="ui-grid-a">
+        <div class="ui-block-a">
+        	<center><label for="select-choice-1" class="select">Seleccione plaza por la que ingreso al centro comercial</label></center>
+            <select name="select-choice-1" id="select-choice-1">
+                <option value="rush">Plaza Colombia</option>
+                <option value="express">Plaza Venezuela</option>
+                <option value="overnight">Plaza Francia</option>
+                <option value="overnight">Plaza Italia</option>
+                <option value="overnight">Plaza Peru</option>
+                <option value="overnight">Plaza Ecuador</option>
+            </select>
+        </div>
+ <center><label for="select-choice-1" class="select">Ingrese el nombre del local donde se encuentra ubicado</label></center>
+        <div class="ui-block-b">
+        	 <ul data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Buscar local" data-inset="true">
+    <li><a href="#"></a></li>
+<li><a href="#"> 5TH AVENIDA</a></li>
+<li><a href="#"> ACCESSORIZE</a></li>
+<li><a href="#"> ADIDAS</a></li>
+<li><a href="#"> AMBIENTE GOURMET</a></li>
+<li><a href="#"> AMOE</a></li>
+<li><a href="#"> AQUILES</a></li>
+<li><a href="#"> ATHLETIC</a></li>
+<li><a href="#"> AZUCAR Y AZUQUITA</a></li>
+<li><a href="#"> AZULU ACCESORIOS</a></li>
+<li><a href="#"> BALASHHH</a></li>
+<li><a href="#"> ABRIL</a></li>
+<li><a href="#"> ADIDAS</a></li>
+<li><a href="#"> AMBIENTE DE HOGAR</a></li>
+<li><a href="#"> AMERICANA DE COLCHONES</a></li>
+<li><a href="#"> AQUILES</a></li>
+<li><a href="#"> ARTURO CALLE</a></li>
+<li><a href="#"> AVANT PLAST</a></li>
+<li><a href="#"> AZUCAR Y AZUQUITA</a></li>
+<li><a href="#"> BABY GANGA</a></li>
+<li><a href="#"> BAMERS</a></li>
+<li><a href="#"> BANCO AV VILLAS</a></li>
+<li><a href="#"> BIOTHECARE</a></li>
+<li><a href="#"> BELLA PIEL</a></li>
+<li><a href="#"> BERSHKA</a></li>
+<li><a href="#"> BESO DE COCO</a></li>
+<li><a href="#"> BOMBALU</a></li>
+<li><a href="#"> BOOTS´N BAGS</a></li>
+<li><a href="#"> BOSI</a></li>
+<li><a href="#"> BRISSA</a></li>
+<li><a href="#"> CALIFORNIA INN</a></li>
+<li><a href="#"> BANCO AV VILLAS</a></li>
+<li><a href="#"> BATA</a></li>
+<li><a href="#"> BELLAPIEL</a></li>
+<li><a href="#"> BESAME</a></li>
+<li><a href="#"> BLESSING</a></li>
+<li><a href="#"> BON BONITE</a></li>
+<li><a href="#"> BOSI</a></li>
+<li><a href="#"> BOSI BAMBINO</a></li>
+<li><a href="#"> CAIRO</a></li>
+<li><a href="#"> CALZADO GONZO</a></li>
+<li><a href="#"> CALZADO PRIMAVERA</a></li>
+<li><a href="#"> CAMISERIA EUROPEA</a></li>
+<li><a href="#"> CARETAS</a></li>
+<li><a href="#"> CAROLINA CRUZ JOYERIA Y ACCESORIOS</a></li>
+<li><a href="#"> CARTER'S</a></li>
+<li><a href="#"> CAT</a></li>
+<li><a href="#"> CHAMARRAS</a></li>
+<li><a href="#"> CHIMENEAS DE COLOMBIA</a></li>
+<li><a href="#"> CLARKS</a></li>
+<li><a href="#"> CLONHADAS</a></li>
+<li><a href="#"> CALZATODO</a></li>
+<li><a href="#"> CAPRINO</a></li>
+<li><a href="#"> CARLOS NIETO</a></li>
+<li><a href="#"> CARTER'S</a></li>
+<li><a href="#"> CASIO G-FACTORY</a></li>
+<li><a href="#"> CAT</a></li>
+<li><a href="#"> CHEVIGNON</a></li>
+<li><a href="#"> CIUDAD COMICS</a></li>
+<li><a href="#"> CLARO</a></li>
+<li><a href="#"> COLCHONES COMODISIMOS</a></li>
+<li><a href="#"> COLCHONES EL DORADO</a></li>
+<li><a href="#"> COLLOKY</a></li>
+<li><a href="#"> COLOR SIETE</a></li>
+<li><a href="#"> COLUMBIA</a></li>
+<li><a href="#"> CROCS</a></li>
+<li><a href="#"> DAKOTTA</a></li>
+<li><a href="#"> DESIGN COMPANY</a></li>
+<li><a href="#"> DISTRIBUIDORA NACIONAL DE SOMBREROS</a></li>
+<li><a href="#"> DIVAS DESIGNS</a></li>
+<li><a href="#"> DO IT</a></li>
+<li><a href="#"> COLCHONES PARAISO</a></li>
+<li><a href="#"> COLLOKY</a></li>
+<li><a href="#"> COLTEFINANCIERA</a></li>
+<li><a href="#"> CONVERSE</a></li>
+<li><a href="#"> CROQUET CLUB</a></li>
+<li><a href="#"> DEREK</a></li>
+<li><a href="#"> DIANE & GEORDI</a></li>
+<li><a href="#"> DIVAS DESIGNS</a></li>
+<li><a href="#"> D'NATURE NEW YORK</a></li>
+<li><a href="#"> DOBLE DOS</a></li>
+<li><a href="#"> DOMÉNICO</a></li>
+<li><a href="#"> DORMILUNA</a></li>
+<li><a href="#"> DROGUERÍA COLSUBSIDIO</a></li>
+<li><a href="#"> DUPAREIL AU MEME</a></li>
+<li><a href="#"> ELA</a></li>
+<li><a href="#"> ELLIPSE</a></li>
+<li><a href="#"> ESPRIT</a></li>
+<li><a href="#"> EVACOL</a></li>
+<li><a href="#"> FALABELLA</a></li>
+<li><a href="#"> FDS FUERA DE SERIE</a></li>
+<li><a href="#"> DON LUIS</a></li>
+<li><a href="#"> DROGUERÍA COLSUBSIDIO</a></li>
+<li><a href="#"> DROGUERÍA ROSAS</a></li>
+<li><a href="#"> EL CORTE INGLES</a></li>
+<li><a href="#"> ELIART</a></li>
+<li><a href="#"> EPK KIDS MART</a></li>
+<li><a href="#"> EUREKA KIDS</a></li>
+<li><a href="#"> EXSS</a></li>
+<li><a href="#"> FARMATODO</a></li>
+<li><a href="#"> FDS FUERA DE SERIE</a></li>
+<li><a href="#"> FEDCO</a></li>
+<li><a href="#"> FIORENZI</a></li>
+<li><a href="#"> FXA SHOP</a></li>
+<li><a href="#"> GLAMOUR</a></li>
+<li><a href="#"> GUESS</a></li>
+<li><a href="#"> HALLMARK</a></li>
+<li><a href="#"> HOT LINE</a></li>
+<li><a href="#"> I TIME</a></li>
+<li><a href="#"> ILITIA</a></li>
+<li><a href="#"> IMUSA</a></li>
+<li><a href="#"> FIORENZI</a></li>
+<li><a href="#"> FREEPORT STORE</a></li>
+<li><a href="#"> GAP</a></li>
+<li><a href="#"> GROGGY</a></li>
+<li><a href="#"> HAIR TO SHOP</a></li>
+<li><a href="#"> HEALTH COMPANY</a></li>
+<li><a href="#"> I SHOP</a></li>
+<li><a href="#"> IBIS</a></li>
+<li><a href="#"> ILUMINATA</a></li>
+<li><a href="#"> INDEX</a></li>
+<li><a href="#"> INDIANAPOLIS 500</a></li>
+<li><a href="#"> INKANTA</a></li>
+<li><a href="#"> JULIO</a></li>
+<li><a href="#"> JUVENIA</a></li>
+<li><a href="#"> KARIBIK</a></li>
+<li><a href="#"> KELINDA</a></li>
+<li><a href="#"> KENZO JEANS</a></li>
+<li><a href="#"> KHAO CLUB</a></li>
+<li><a href="#"> KOAJ</a></li>
+<li><a href="#"> INKANTA</a></li>
+<li><a href="#"> JULIO</a></li>
+<li><a href="#"> JUMBO</a></li>
+<li><a href="#"> KALIFA</a></li>
+<li><a href="#"> KARIBIK</a></li>
+<li><a href="#"> KENZO JEANS</a></li>
+<li><a href="#"> KEVIN'S JOYEROS</a></li>
+<li><a href="#"> LA CAMISA A SU MEDIDA</a></li>
+<li><a href="#"> LA RIVIERA</a></li>
+<li><a href="#"> L'BEL</a></li>
+<li><a href="#"> LEGO</a></li>
+<li><a href="#"> LIBRERIA NACIONAL</a></li>
+<li><a href="#"> LINURAS. NU</a></li>
+<li><a href="#"> LONDON KIDS</a></li>
+<li><a href="#"> LUBER</a></li>
+<li><a href="#"> MACHO STYLE</a></li>
+<li><a href="#"> LA CAVA DEL TÉ</a></li>
+<li><a href="#"> LAURA V</a></li>
+<li><a href="#"> LEC LEE</a></li>
+<li><a href="#"> LEVI'S STORE</a></li>
+<li><a href="#"> LIBRERIA NACIONAL</a></li>
+<li><a href="#"> L'OCCITANE EN PROVENCE</a></li>
+<li><a href="#"> LOUIS BARTON</a></li>
+<li><a href="#"> LUX ZANNA</a></li>
+<li><a href="#"> MAGENTA</a></li>
+<li><a href="#"> MAHJA</a></li>
+<li><a href="#"> MARIA GUAPA</a></li>
+<li><a href="#"> MARQUIS</a></li>
+<li><a href="#"> MASSIMO DUTTI</a></li>
+<li><a href="#"> MEDIAS Y MAS</a></li>
+<li><a href="#"> MNG - MANGO</a></li>
+<li><a href="#"> MOISS</a></li>
+<li><a href="#"> MONSTERa</a></li>
+<li><a href="#"> MULTIÓPTICAS</a></li>
+<li><a href="#"> MUSSI ZAPATOS</a></li>
+<li><a href="#"> MAMAHUHU</a></li>
+<li><a href="#"> MARIO HERNANDEZ</a></li>
+<li><a href="#"> MARRUECOS COLOMBIAN LEATHER</a></li>
+<li><a href="#"> MAURICIO GUERRERO / EXCHANGE CENTER</a></li>
+<li><a href="#"> MIC FANTASY WORLD</a></li>
+<li><a href="#"> MOBILE XPRESS</a></li>
+<li><a href="#"> MOMA ACCESORIOS</a></li>
+<li><a href="#"> MONSTRUOS</a></li>
+<li><a href="#"> MULTIÓPTICAS</a></li>
+<li><a href="#"> NAF NAF</a></li>
+<li><a href="#"> NEUF</a></li>
+<li><a href="#"> NEW BALANCE</a></li>
+<li><a href="#"> NEW PLAY</a></li>
+<li><a href="#"> NONO</a></li>
+<li><a href="#"> BOTICÁRIO</a></li>
+<li><a href="#"> ONDA DE MAR</a></li>
+<li><a href="#"> OPPOSITE</a></li>
+<li><a href="#"> OPTICENTRO INTERNACIONAL</a></li>
+<li><a href="#"> OUTDOOR ADVENTURE</a></li>
+<li><a href="#"> NAUTY BLUE</a></li>
+<li><a href="#"> NEW BALANCE</a></li>
+<li><a href="#"> NEW PLAY</a></li>
+<li><a href="#"> NIKE STORE</a></li>
+<li><a href="#"> NYX</a></li>
+<li><a href="#"> OFF CORSS</a></li>
+<li><a href="#"> ONSET</a></li>
+<li><a href="#"> ÓPTICA ITALIANA</a></li>
+<li><a href="#"> ORO & TIEMPO</a></li>
+<li><a href="#"> PANDORA</a></li>
+<li><a href="#"> PARAIBA</a></li>
+<li><a href="#"> PARTY LAND</a></li>
+<li><a href="#"> PATPRIMO</a></li>
+<li><a href="#"> PAYLESS</a></li>
+<li><a href="#"> PELILLOS MÁGICOS</a></li>
+<li><a href="#"> PEPE GANGA</a></li>
+<li><a href="#"> PILATOS</a></li>
+<li><a href="#"> PLANET LOVE</a></li>
+<li><a href="#"> PLATERÍA Y JOYERÍA ELIS</a></li>
+<li><a href="#"> PUMAPARDO Y NEGRO</a></li>
+<li><a href="#"> PARTYLAND</a></li>
+<li><a href="#"> PAYLESS</a></li>
+<li><a href="#"> PEKES Y CHIKIS</a></li>
+<li><a href="#"> PEOPLE PLAY'S</a></li>
+<li><a href="#"> PHOTOFOLIO</a></li>
+<li><a href="#"> PIO XII</a></li>
+<li><a href="#"> PLANETA SPORT</a></li>
+<li><a href="#"> POLAR</a></li>
+<li><a href="#"> PUNTO BLANCO – GEF</a></li>
+<li><a href="#"> SAMSONITE</a></li>
+<li><a href="#"> SAMSUNG</a></li>
+<li><a href="#"> REGATA</a></li>
+<li><a href="#"> S&H PURO CUERO</a></li>
+<li><a href="#"> SAMALENS</a></li>
+<li><a href="#"> SASUN</a></li>
+<li><a href="#"> SHALEM</a></li>
+<li><a href="#"> SHOKER</a></li>
+<li><a href="#"> SISLEY</a></li>
+<li><a href="#"> SPEEDO</a></li>
+<li><a href="#"> PYLONES</a></li>
+<li><a href="#"> REEBOK</a></li>
+<li><a href="#"> ROSA ELEGANCE</a></li>
+<li><a href="#"> SACHET</a></li>
+<li><a href="#"> SANTORINI</a></li>
+<li><a href="#"> SENTHIA</a></li>
+<li><a href="#"> SHANA</a></li>
+<li><a href="#"> SIESUA MEDICINA LÁSER & SPA</a></li>
+<li><a href="#"> SOUTHPOLE</a></li>
+<li><a href="#"> SPORT LAND</a></li>
+<li><a href="#"> SPORT LIFE</a></li>
+<li><a href="#"> SPRING STEP</a></li>
+<li><a href="#"> STAYPOL</a></li>
+<li><a href="#"> STIVALI</a></li>
+<li><a href="#"> STRIDE RITE</a></li>
+<li><a href="#"> SURF LAND</a></li>
+<li><a href="#"> TANGO DISCOS</a></li>
+<li><a href="#"> TELEVENTAS</a></li>
+<li><a href="#"> TENNIS</a></li>
+<li><a href="#"> TIENDAS GH</a></li>
+<li><a href="#"> SPRING</a></li>
+<li><a href="#"> SPRING STEP</a></li>
+<li><a href="#"> STILE SPORT</a></li>
+<li><a href="#"> STRADIVARIUS</a></li>
+<li><a href="#"> STUDIO F</a></li>
+<li><a href="#"> TALL POINT</a></li>
+<li><a href="#"> TANIA</a></li>
+<li><a href="#"> TENNIS</a></li>
+<li><a href="#"> THOMAS ENGLAND</a></li>
+<li><a href="#"> TIME SQUARE</a></li>
+<li><a href="#"> TOMMY HILFIGER</a></li>
+<li><a href="#"> TOUCHÉ STORE</a></li>
+<li><a href="#"> TOYS LANDIA</a></li>
+<li><a href="#"> TRIANON</a></li>
+<li><a href="#"> TU FIGURA</a></li>
+<li><a href="#"> TUC TUC</a></li>
+<li><a href="#"> VIAJEROS</a></li>
+<li><a href="#"> TOTAL SHOES</a></li>
+<li><a href="#"> TOTTO</a></li>
+<li><a href="#"> TOUS</a></li>
+<li><a href="#"> TRAVESURAS</a></li>
+<li><a href="#"> T-SHIRT LAB S.A.S. </a></li>
+<li><a href="#"> TUC TUC</a></li>
+<li><a href="#"> UMBRO</a></li>
+<li><a href="#"> VÉLEZ</a></li>
+<li><a href="#"> VICTORIA´S SECRET</a></li>
+<li><a href="#"> VIVA MED SPA</a></li>
+<li><a href="#"> WOMEN SECRET</a></li>
+<li><a href="#"> XAXARITAS</a></li>
+<li><a href="#"> YOGEN FRÜZ</a></li>
+<li><a href="#"> ZARA</a></li>
+<li><a href="#"> VILLA ROMANA</a></li>
+<li><a href="#"> WILLDI</a></li>
+<li><a href="#"> WOODY´S</a></li>
+<li><a href="#"> XUSS</a></li>
+<li><a href="#"> ZAMBRANO</a></li>
+<li><a href="#"> ZLIMMY</a></li>
+
+    </ul>
+ </div>
+	</div><!-- /grid-a -->
+   </div>
+   <div data-role="footer" data-position="fixed">
+    	<div data-role="navbar">
+            <ul>
+                <li><a href="#seleccioncc" data-icon="home">Menu Principal</a></li>
+                <li><a href="#registrosf" data-icon="arrow-l">atras</a></li>
+                <li><a href="#mapa1" data-icon="location">Generar ruta de salida</a></li>
+            </ul>
+   </div><!-- /navbar -->
+</div><!-- /footer -->
+</div>
+
+
+
+<div data-role="page" id="mapa1">
+          <div data-role="header">
+              <h1>Ruta de salida</h1>
+        </div>
+<img src="mapa1.jpg">
+<div data-role="footer" data-position="fixed">
+    	<div data-role="navbar">
+            <ul><li><a href="#seleccioncc" data-icon="home">Menu Principal</a></li>
+                <li><a href="#registrosf" data-icon="arrow-l">atras</a></li>
+             </ul>
+   </div><!-- /navbar -->
+</div><!-- /footer -->
+</div>
+
+
+
+<div data-role="page" id="mapa2">
+          <div data-role="header">
+              <h1>Ruta de salida</h1>
+        </div>
+<img src="mapa2.jpg">
+<div data-role="footer" data-position="fixed">
+    	<div data-role="navbar">
+            <ul><li><a href="#seleccioncc" data-icon="home">Menu Principal</a></li>
+                <li><a href="#registrosf" data-icon="arrow-l">atras</a></li>
+             </ul>
+   </div><!-- /navbar -->
+</div><!-- /footer -->
+</div>
+
+</body>
+</html>
+
+
